@@ -3,19 +3,22 @@
     "display": "SHA1",
     "fields": {
         "AAD": {
-            "caption": "text",
-            "editor": "StaticText",
-            "name": "text",
-            "rank": 0
-        }
-    },
-    "return_value": {
-        "AAE": {
-            "caption": "result",
-            "name": "result",
+            "caption": "Text to SHA1 Encode",
+            "doc": "Put your expression to SHA1 decode here. Must be a text (string). The encoded string will appear at the plugin's \"Encoded Text\" output.",
+            "editor": "DynamicValue",
+            "name": "input_string",
             "rank": 0,
             "value": "text"
         }
     },
-    "type": "server_side"
+    "return_value": {
+        "AAE": {
+            "caption": "Encoded Text",
+            "name": "encoded_text",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
 }

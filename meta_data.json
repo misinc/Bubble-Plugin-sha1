@@ -2,8 +2,9 @@
     "categories": {
         "0": "data (things)"
     },
-    "description": "returns a SHA1 hash of any text passed to it",
+    "description": "Simply returns a SHA1 hash of any text passed to it, all handled server side via an action. Useful in passing data to APIs, Single Sign On (SSO) and more.",
     "image": "//s3.amazonaws.com/appforest_uf/f1531455189113x959372189361602000/Bubble%20Icon.png",
     "license": "private",
-    "name": "sha1"
+    "name": "sha1",
+    "plugin_instructions": "Add this action to a workflow and generate a SHA1 hash of any text (static or dynamic). "
 }
