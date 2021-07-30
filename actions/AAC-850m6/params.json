@@ -1,0 +1,21 @@
+{
+    "category": "plugins",
+    "display": "SHA1",
+    "fields": {
+        "AAD": {
+            "caption": "text",
+            "editor": "StaticText",
+            "name": "text",
+            "rank": 0
+        }
+    },
+    "return_value": {
+        "AAE": {
+            "caption": "result",
+            "name": "result",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side"
+}

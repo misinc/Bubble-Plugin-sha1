@@ -1,0 +1,9 @@
+{
+    "categories": {
+        "0": "data (things)"
+    },
+    "description": "returns a SHA1 hash of any text passed to it",
+    "image": "//s3.amazonaws.com/appforest_uf/f1531455189113x959372189361602000/Bubble%20Icon.png",
+    "license": "private",
+    "name": "sha1"
+}
